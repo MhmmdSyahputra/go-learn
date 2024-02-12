@@ -1,0 +1,22 @@
+Perbedaan deklarasi varial
+** := => digunakan agar varibel bersifat global
+cth: umur := 20
+** var namevar => variabel bersifat local
+cth: var nama string = "putra"
+
+Pemformatan
+%d: Untuk mencetak bilangan bulat dalam format desimal.
+%f: Untuk mencetak angka desimal (float).
+%s: Untuk mencetak string.
+%t: Untuk mencetak nilai boolean.
+%c: Untuk mencetak karakter sebagai ASCII.
+%p: Untuk mencetak alamat memori (pointer).
+%v: Untuk mencetak nilai dalam format default.
+%x, %X: Untuk mencetak bilangan bulat dalam format heksadesimal (basis 16), dengan %X menghasilkan huruf besar.
+
+Perataan
+misal: fmt.Printf("%-2d | %-10s", no,nama)
+hasil: 
+1  putra
+2  ari
+3  rizky
